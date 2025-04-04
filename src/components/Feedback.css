@@ -1,0 +1,107 @@
+.feedback-section {
+    background-color: var(--bg-color);
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem 0 8rem 0  ;
+}
+
+.feedback h2 {
+    width: 620px;
+    height: 78px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    letter-spacing: 0px;
+    color: var(--blue-dark);
+    /* border: 2px solid; */
+
+}
+
+.feedback .feedback-cards {
+    display: flex;
+    gap: 3.4rem;
+    
+}
+
+.feedback-cards .feedback-card {
+    position: relative;
+    width: 570px;
+    height: 294px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 10px 70px var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 4rem;
+}
+
+
+
+.feedback-cards .feedback-card .quote {
+    width: 83px;
+    height: 83px;
+    font-size: 14px;
+    background-color: var(--blue-medium);
+    position: absolute;
+    top: -25px;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 22px 14px 0 18px;
+
+}
+
+
+.feedback-cards .feedback-card .customer-feedback {
+    width: 450px;
+    height: 106px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    color: var(--blue-deep);
+}
+
+
+.feedback-card .badge {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.badge .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content h4 {
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: var(--blue-deep);
+    
+}
+
+.content p {
+    width: 58px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+color: var(--blue-deep);            
+
+}

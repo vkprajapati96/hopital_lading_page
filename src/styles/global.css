@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+
+
+:root {
+    --shadow-color:#E8F0F6;
+    --bg-color: #f8fdff;
+    --primary-color: #FF9F6A;
+    --secondary-color: #FFFFFF;
+    --blue-light: #0073FF;
+    --blue-medium: #007FF4;
+    --blue-dark: #003B79;
+    --blue-deep: #002348;
+    --font-primary: 'Source Sans Pro', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+    
+}
+
+body,html {
+   
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+::-webkit-scrollbar{
+    display: none;
+}
+/* container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+    /* border: 2px solid red; */
+}
+
+
+/* XXL Screens (≥1400px) */
+/* @media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+} */
+
+/* Extra Large devices (≥1200px) */
+/* @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+} */
+
+/* Large devices (≥992px) */
+/* @media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+} */
+
+/* Medium devices (≥768px) */
+/* @media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+} */
+
+/* Small devices (≥576px) */
+/* @media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+} */
