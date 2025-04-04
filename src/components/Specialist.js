@@ -10,18 +10,18 @@ function Specialist() {
       profile: "Dental Care",
     },
     {
-      id: 1,
+      id: 2,
       name: "Dr. Filipa Gaspar",
       profile: "Cardiology",
     },
     {
-      id: 1,
+      id: 3,
       name: "Dr. Sukhmeet Gorae",
       profile: "Neurological",
     },
 
     {
-      id: 1,
+      id: 4,
       name: "Dr. Siri Jakobsson",
       profile: "Prediatrics",
     },
@@ -30,7 +30,7 @@ function Specialist() {
 
   return (
     <section className="Specialist-section">
-     <div className="oval-img"><img src="/images/Oval2.png" alt="oval" />
+     <div className="oval-img"><img src="/images/Oval 2.png" alt="oval" />
      </div> 
 
       <div className="container Specialist">

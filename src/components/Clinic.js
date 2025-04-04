@@ -1,8 +1,5 @@
 import React from 'react'
 import "./Clinic.css"
-import woman from "../../public/images/doctor-woman.png"
-import man from "../../public/images/doctor-man.png"
-import ambulance from "../../public/images/ambulance.png"
 
 function Clinic() {
   return (

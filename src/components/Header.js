@@ -20,10 +20,10 @@ function Header() {
         <div className="logo">Medi<span>Care+</span></div>
         <nav>
         <ul>
-            <li><Link>Home</Link></li>
-            <li><Link>About</Link></li>
-            <li><Link>Service</Link></li>
-            <li><Link>News</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">About</Link></li>
+            <li><Link to="/">Service</Link></li>
+            <li><Link to="/">News</Link></li>
         </ul>
         <button id="contact">Contact</button>
         </nav>

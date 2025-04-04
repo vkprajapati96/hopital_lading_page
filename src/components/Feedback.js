@@ -1,6 +1,5 @@
 import React from "react"
 import "./Feedback.css"
-import patient1 from "../../public/images/Patient1.png"
 
 function Feedback() {
   return (
@@ -23,7 +22,7 @@ function Feedback() {
             
             {/* card image and name section*/}
             <div className="badge">
-              <img src={patient1} alt=""/>
+            <img src="/images/patient1.png" alt="" />
               <div className="content">
                 <h4>Jacqueline Asong</h4>
                 <p>Patient</p>
@@ -40,7 +39,7 @@ function Feedback() {
             
             {/* card image and name section*/}
             <div className="badge">
-            <img src="/images/patient1.png" alt="quote" />
+            <img src="/images/patient2.png" alt="" />
               <div className="content">
                 <h4>Jacqueline Asong</h4>
                 <p>Patient</p>
