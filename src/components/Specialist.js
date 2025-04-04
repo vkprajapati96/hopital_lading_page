@@ -1,7 +1,6 @@
 import React from "react"
 import "./Specialist.css"
 import SpecialistCard from "./SpecialistCard"
-import oval2 from "../../public/images/Oval Copy 2.png"
 
 function Specialist() {
   const SpecialistData = [
@@ -31,7 +30,8 @@ function Specialist() {
 
   return (
     <section className="Specialist-section">
-     <div className="oval-img"><img src={oval2} alt="" /> </div> 
+     <div className="oval-img"><img src="/images/Oval2.png" alt="oval" />
+     </div> 
 
       <div className="container Specialist">
         <h2>We Have The Best Specialist</h2>

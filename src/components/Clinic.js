@@ -17,18 +17,18 @@ function Clinic() {
         {/* middle cards */} 
         <div className='middle-cards'>
             <div className='card'>
-            <img src={woman} alt="" />
+            <img src="/images/doctor-woman.png" alt="Doctor Woman" />
             <p>Qualified Doctors</p>
             </div>
             <div className='card abmlance-card'>
-            <img src={ambulance} alt="" />
+            <img src="/images/ambulance.png" alt="Doctor Man" />
             <p>Qualified Doctors</p>
             </div>
         </div>
 
         {/* last card */}
         <div className='last-card'>
-            <img src={man} alt="" />
+        <img src="/images/doctor-man.png" alt="Doctor Man" />
             <p>Qualified Doctors</p>
             </div>
         </div>

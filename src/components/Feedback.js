@@ -1,6 +1,5 @@
 import React from "react"
 import "./Feedback.css"
-import quote from "../../public/images/quote.png"
 import patient1 from "../../public/images/Patient1.png"
 
 function Feedback() {
@@ -15,7 +14,7 @@ function Feedback() {
           {/* single card */}
 
           <div className="feedback-card">
-            <div className="quote"><img src={quote} alt="" /></div>
+            <div className="quote"><img src="/images/quote.png" alt="quote" /></div>
             
             <div className="customer-feedback" > 
               I wanted to thanks everyone at this facility for the quality of
@@ -32,7 +31,7 @@ function Feedback() {
             </div>
           </div>
           <div className="feedback-card">
-            <div className="quote"><img src={quote} alt="" /></div>
+            <div className="quote"><img src="/images/quote.png" alt="quote" /></div>
             
             <div className="customer-feedback" > 
               I wanted to thanks everyone at this facility for the quality of
@@ -41,7 +40,7 @@ function Feedback() {
             
             {/* card image and name section*/}
             <div className="badge">
-              <img src={patient1} alt=""/>
+            <img src="/images/patient1.png" alt="quote" />
               <div className="content">
                 <h4>Jacqueline Asong</h4>
                 <p>Patient</p>
