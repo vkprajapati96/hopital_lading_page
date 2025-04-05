@@ -6,12 +6,12 @@ import Specialist from '../components/Specialist';
 import Feedback from '../components/Feedback';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 
 function Index() { 
   return (
     <div>
-      <Header/>
+      <Navbar/>
       <HeroSection/>
       <Service/>
       <Clinic/>
