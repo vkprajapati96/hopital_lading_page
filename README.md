@@ -96,10 +96,10 @@ A quick look at the top-level files and directories you'll see in a typical Gats
 Created by **Vishal Prajapati** 
 
 Github Acccount 
-<!-- https://github.com/vkprajapati96  -->
+ https://github.com/vkprajapati96 
 
 
 LinkdIn Profile
-<!-- www.linkedin.com/in/vishal-prajapati-8932ba2a4 -->
+ www.linkedin.com/in/vishal-prajapati-8932ba2a4 
 
 
