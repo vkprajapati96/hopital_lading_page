@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import { Link } from 'gatsby'
 
+
 function Footer() {
   return (
     <div>
