@@ -4,7 +4,7 @@ import Button from "./Button"
 
 import React from "react"
 
-function Header({Contact}) {
+function Header(){
   return (
     <header >
         <div className="container inner-header ">
@@ -13,10 +13,7 @@ function Header({Contact}) {
         <div className="ist-oval"></div>
 
        {/*2nd oval */}
-       {/* <img className="second-oval" src="/images/Oval.png" alt="" /> */}
         <div className="second-oval"></div>
-
-
 
       {/* navbar */}
       <div className="navbar">
@@ -37,5 +34,7 @@ function Header({Contact}) {
     </header>
   )
 }
+
+
 
 export default Header
