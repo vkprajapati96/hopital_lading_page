@@ -9,7 +9,7 @@ function Feedback() {
   const [error,setError] =useState("");
   
   // choose for specific index
-  const specificindex =[0,1,2,3,6,7,8];
+  const specificindex =[0,1,2,3,6,7];
   const specificCard = reviews.filter((_,index)=>specificindex.includes(index))
 
  const API_URL = "https://admin.tomedes.com/api/v1/get-reviews?page=1";
