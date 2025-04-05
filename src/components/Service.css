@@ -50,9 +50,9 @@
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 50px #003B7913;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.15);
     padding: 30px 30px;
-    transition: all 0.3s ease-in-out; /* Smooth transition */
+    transition: all 0.3s ease-in-out; 
 
 }
 
@@ -60,7 +60,6 @@
     width: 130px;
     height: 140px;
     border-width: 1px;
-    /* border: 2px solid var(--blue-medium); */
     color: var(--blue-medium);
 
 }

@@ -5,6 +5,8 @@ import Service from '../components/Service';
 import Clinic from '../components/Clinic';
 import Specialist from '../components/Specialist';
 import Feedback from '../components/Feedback';
+import Newsletter from '../components/Newsletter';
+import Footer from '../components/Footer';
 
 function Index() { 
   return (
@@ -15,6 +17,9 @@ function Index() {
       <Clinic/>
       <Specialist/>
       <Feedback/>
+      <Newsletter/>
+      <Footer/>
+      
       
     </div>
   );

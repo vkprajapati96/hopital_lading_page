@@ -1,11 +1,14 @@
 import React from "react"
 import "./HeroSection.css"
+import Button from './Button'
 
 function HeroSection() {
   return (
     <section className="hero-section"  >
       <div className="container hero">
+
         {/* hero content */}
+        
         <div className="hero-content">
           <p className="greet">Welcome to MediCare+ Clinic</p>
           <h2 className="title">Best Specialists</h2>
@@ -15,8 +18,8 @@ function HeroSection() {
             single convenient location.
           </p>
           <div className="btns">
-            <button className="btn1">Make an Appointment</button>
-            <button className="btn2">Departments</button>
+            <Button className="btn1" text="Make an Appointment"/>
+            <div className="btn2"><button>Departments</button></div>
           </div>
         </div>
 

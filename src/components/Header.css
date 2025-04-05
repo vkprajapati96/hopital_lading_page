@@ -1,12 +1,10 @@
 header {
   background-color:var(--bg-color);
   width: 100%;
-  /* border:2px solid red; */
 }
 .inner-header {
   position: relative;
-  /* border: 2px solid yellowgreen; */
-  height: 110px;
+  height: 130px;
 }
 
 .ist-oval {
@@ -18,19 +16,12 @@ header {
 
   border-radius: 50%;
   border: 100px solid #ffffff;
-  box-shadow: #003b7913;
+  box-shadow: 0 4px 70px rgba(0, 0, 0, 0.15);
+
 }
 
-/* header .second-oval {
-  box-shadow: rgba(0, 59, 121, 0.0726);
-  width: 971px;
-  height: 971px;
-  position: absolute;
-  top: -600px;
-  left: 720px;
-} */
-
-header .inner-second-oval {
+ 
+ header .second-oval {
    
     width: 971px;
     height: 971px;
@@ -40,16 +31,30 @@ header .inner-second-oval {
     left: 756px;
     border-radius: 100%;
     box-shadow: #003b7913;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-}
+} 
+
+ /* header .second-oval {
+   
+  width: 971px;
+  height:971px;
+  top: -548;
+  left: 756px;    
+  position: absolute;
+  z-index: 1000;
+  border: 2px solid; 
+}  */
+
+
+
 
 header .navbar {
   position: absolute;
-  top: 15px;
+  top: 20px;
   display: flex;
   justify-content: space-between;
 
-  /* background-color: yellow; */
   width: 100%;
   align-items: center;
 }
@@ -79,26 +84,18 @@ header .navbar ul {
 
 header .navbar ul li {
   list-style: none;
-  /* color: black; */
 }
-header .navbar ul li a {
+header .navbar ul li #home{
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: var(--blue-light);
-  /* list-style: none; */
-  /* color: black; */
+  
 }
-
-header nav button {
-  width: 170px;
-  height: 50px;
-  font-weight: 700;
+header .navbar ul li a {
   font-size: 16px;
-  color: var(--secondary-color);
-  background-color: var(--blue-medium);
-  border: none;
-  border-radius: 30px;
-margin-right: 4rem;
-}
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--blue-light);
 
+}

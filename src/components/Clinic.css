@@ -1,52 +1,51 @@
-.clinic-section{
-background-color: var(--secondary-color);
+.clinic-section {
+    background-color: var(--secondary-color);
 }
 
-.clinic{
+.clinic {
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* margin:5rem 0; */
     padding: 13rem 0 8rem 0;
     gap: 30px;
-    /* border: 2px solid black; */
 
 }
 
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-.clinic .content h2{
+
+.clinic .content h2 {
     width: 559px;
     height: 78px;
-font-weight: 600;
-font-size: 54px;
-line-height: 78px;
-letter-spacing: 0px;
-color: var(--blue-dark);
-
-    
-}
-
-
-
-.clinic .content p{
-width: 546px;
-height: 78px;
-font-weight: 400;
-font-size: 19px;
-line-height: 39px;
-letter-spacing: 0px;
-color: var(--blue-deep);
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    letter-spacing: 0px;
+    color: var(--blue-dark);
 
 
 }
-    
-.clinic .content button{
+
+
+
+.clinic .content p {
+    width: 546px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    color: var(--blue-deep);
+
+
+}
+
+.clinic .content button {
     width: 186px;
     height: 60px;
     border-radius: 30px;
@@ -58,85 +57,80 @@ color: var(--blue-deep);
     color: var(--secondary-color);
     background-color: var(--blue-medium);
     border: none;
+}
+
+
+.clinic .middle-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
 
 }
 
 
-.clinic .middle-cards{
-display: flex;
-flex-direction: column;
-gap:10rem;
-
-}
-
-
-.middle-cards .card{
-width: 282px;
-height: 236px;
-border-radius: 20px;
-box-shadow: 0 0 70px #f0f0f0;
-background-color: var(--secondary-color);
-display: flex;
-flex-direction: column;
-position: relative;
-}
-
-.middle-cards .card img{
-    position: absolute;
-    top: -110px;
-    right:70px;
-    border-radius: 100px;
-
-}
-
-
-.middle-cards .card p{
-  margin-top: 11rem;
-  padding-left: 2rem;
-  /* width: 200px; */
-/* height: 30px; */
-color: var(--blue-deep);
-font-weight: 600;
-font-size: 22px;
-line-height: 100%;
-letter-spacing: 0px;
-
-}
-
-.clinic .last-card{
+.middle-cards .card {
     width: 282px;
-height: 236px;
-border-radius: 20px;
-box-shadow: 0 0 70px #f0f0f0;
-background-color: var(--secondary-color);
-display: flex;
-flex-direction: column;
-position: relative;
+    height: 236px;
+    border-radius: 20px;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.15);
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.clinic .last-card img{
+.middle-cards .card img {
     position: absolute;
-    top: -110px;
-    right:30px;
+    top: -120px;
+    right: 30px;
     border-radius: 100px;
 
 }
 
-.middle-cards .abmlance-card img{
-    position: absolute;
-    top: -60px;
-    right:40px;
-}
 
-.clinic .last-card p{
+.middle-cards .card p {
     margin-top: 11rem;
     padding-left: 2rem;
-    /* width: 200px; */
-  /* height: 30px; */
-  color: var(--blue-deep);
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 100%;
-  letter-spacing: 0px;
+    color: var(--blue-deep);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.clinic .last-card {
+    width: 282px;
+    height: 236px;
+    border-radius: 20px;
+    box-shadow: 0 0 70px #f0f0f0;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.clinic .last-card img {
+    position: absolute;
+    top: -110px;
+    right: 30px;
+    border-radius: 100px;
+
+}
+
+.middle-cards .abmlance-card img {
+    position: absolute;
+    top: -105px;
+    right: 20px;
+}
+
+.clinic .last-card p {
+    margin-top: 11rem;
+    padding-left: 2rem;
+    color: var(--blue-deep);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0px;
 
 }

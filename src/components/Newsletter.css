@@ -1,12 +1,103 @@
 .newsletter-section {
     background-color: var(--bg-color);
+    padding: 6rem 0;
+    position: relative;
+    height: 668px;
+
 }
+
 
 .newsletter {
-position: relative;
+    position: absolute;
+    width: 1198px;
+    height: 478px;
+    border-radius: 20px;
+    background-color: var(--blue-medium);
+    border: none;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5.5rem;
+    padding-top: 2rem;
+    margin-left: 4.6rem;
 
 }
 
-.newsletter .ovalpic{
-    
+.ovalpic1 {
+    /* position: absolute; */
+    /* top: -150px; */
+    /* right: -100px; */
+    /* width: 301px; */
+    /* height: 301px; */
+    /* border-radius: 50%; */
+    /* z-index: 1; */
+    /* border: 50px solid var(--secondary-color); */
+    /* background-color: var(--secondary-color); */
 }
+
+
+.ovalpic {
+    position: absolute;
+    top: -70px;
+    right: -20px;
+}
+
+
+.newsletter .news-Content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.newsletter .news-Content h4 {
+    width: 559px;
+    height: 78px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 78px;
+    letter-spacing: 0px;
+    color: var(--secondary-color);
+
+}
+
+
+.newsletter .news-Content p {
+    width: 546px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--secondary-color);
+    /* border: 2px solid; */
+    padding-top: 16px
+}
+
+
+
+.newsletter .input-section {
+    position: relative;
+    width: 846px;
+    height: 120px;
+}
+
+.newsletter input {
+    border: none;
+    width: 846px;
+    height: 120px;
+    border-radius: 10px;
+    padding-left: 30px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0px;
+    ;
+    color: #9B9B9B;
+
+
+}
+

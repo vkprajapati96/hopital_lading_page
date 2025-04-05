@@ -22,22 +22,31 @@
 }
 
 .feedback .feedback-cards {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows:  1fr; */
     gap: 3.4rem;
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
     
 }
 
-.feedback-cards .feedback-card {
+.feedback-cards .feedback-card {  
+    /* flex-shrink: 0; */
     position: relative;
     width: 570px;
     height: 294px;
     border-radius: 20px;
     background-color: var(--secondary-color);
-    box-shadow: 0 10px 70px var(--shadow-color);
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.15);
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 4rem;
+
 }
 
 
@@ -81,7 +90,7 @@
 .badge .content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .content h4 {
@@ -96,7 +105,7 @@
 }
 
 .content p {
-    width: 58px;
+    /* width: 70px; */
     height: 23px;
     font-weight: 400;
     font-size: 18px;
