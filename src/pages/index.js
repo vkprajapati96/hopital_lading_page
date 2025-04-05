@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "../components/Header"; 
+import Header from "../components/header"; 
 import HeroSection from '../components/HeroSection';
 import Service from '../components/Service';
 import Clinic from '../components/Clinic';
@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 function Index() { 
   return (
     <div>
-      <Header />
+      <Header/>
       <HeroSection/>
       <Service/>
       <Clinic/>
