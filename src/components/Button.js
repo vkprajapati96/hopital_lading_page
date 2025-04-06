@@ -7,5 +7,5 @@ function Button({text,className}) {
 }
 
 
-export default Button
+export default Button;
 
