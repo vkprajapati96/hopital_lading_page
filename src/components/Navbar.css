@@ -1,13 +1,13 @@
-header {
+.navbar-section{
   background-color:var(--bg-color);
   width: 100%;
 }
-.inner-header {
+.inner-navbar {
   position: relative;
   height: 130px;
 }
 
-.ist-oval {
+.inner-navbar .ist-oval {
   position: relative;
   top: -238px;
   left: -300px;
@@ -21,7 +21,7 @@ header {
 
 
  
- header .second-oval {
+ .inner-navbar .second-oval {
    
     width: 971px;
     height: 971px;
@@ -38,7 +38,7 @@ header {
 
 
 
-header .navbar {
+.inner-navbar .navbar {
   position: absolute;
   top: 20px;
   display: flex;
@@ -48,40 +48,40 @@ header .navbar {
   align-items: center;
 }
 
-header .navbar .logo {
+.inner-navbar .navbar .logo {
   font-size: 34px;
   font-weight: 700;
   color: var(--blue-medium);
 }
 
-header .navbar .logo span {
+.inner-navbar .navbar .logo span {
   color: var(--primary-color);
 }
 
-header .navbar nav {
+.inner-navbar .navbar nav {
   display: flex;
   gap: 4.5rem;
   align-items: center;
 }
 
-header .navbar ul {
+.inner-navbar .navbar nav ul {
   display: flex;
   gap: 3rem;
   width: 336px;
   height: 20px;
 }
 
-header .navbar ul li {
+.inner-navbar .navbar nav ul li {
   list-style: none;
 }
-header .navbar ul li #home{
+.inner-navbar .navbar nav ul li #home{
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: var(--blue-light);
   
 }
-header .navbar ul li a {
+.inner-navbar .navbar nav ul li a {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
@@ -89,6 +89,6 @@ header .navbar ul li a {
 
 }
 
-header .navbar ul li a:hover{
+.inner-navbar .navbar nav ul li a:hover{
   font-weight: 700;
 }
