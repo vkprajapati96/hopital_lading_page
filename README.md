@@ -51,7 +51,7 @@ After running the above commands, the app will be available at:
 ```
 http://localhost:8000
 ```
-## 🧐 What's inside?
+##  What's inside?
 
 A quick look at the top-level files and directories you'll see in a typical Gatsby project.
     .
