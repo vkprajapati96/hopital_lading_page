@@ -13,12 +13,12 @@ header {
   left: -300px;
   width: 482px;
   height: 482px;
-
   border-radius: 50%;
   border: 100px solid #ffffff;
   box-shadow: 0 4px 70px rgba(0, 0, 0, 0.15);
 
 }
+
 
  
  header .second-oval {
@@ -34,17 +34,6 @@ header {
     box-shadow: 0 4px 50px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
 } 
-
- /* header .second-oval {
-   
-  width: 971px;
-  height:971px;
-  top: -548;
-  left: 756px;    
-  position: absolute;
-  z-index: 1000;
-  border: 2px solid; 
-}  */
 
 
 
@@ -98,4 +87,8 @@ header .navbar ul li a {
   text-decoration: none;
   color: var(--blue-light);
 
+}
+
+header .navbar ul li a:hover{
+  font-weight: 700;
 }

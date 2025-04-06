@@ -17,9 +17,12 @@ This is a simple **Hospital Landing Page** built using Gatsby. It is a frontend-
 
 ## Technologies Used
 
-- Gatsby (React framework)
-- React
+- Gatsby.js (React Framework)
+- Figma
+- REST API
 - Axios
+- Git
+- vercel
 - CSS
 - React Hooks (`useEffect, useState`)
 
@@ -99,7 +102,7 @@ Github Acccount
  https://github.com/vkprajapati96 
 
 
-LinkdIn Profile
+LinkdeIn Profile
  www.linkedin.com/in/vishal-prajapati-8932ba2a4 
 
 

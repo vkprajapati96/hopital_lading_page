@@ -7,8 +7,7 @@ function HeroSection() {
     <section className="hero-section"  >
       <div className="container hero">
 
-        {/* hero content */}
-        
+        {/* hero section content */}
         <div className="hero-content">
           <p className="greet">Welcome to MediCare+ Clinic</p>
           <h2 className="title">Best Specialists</h2>
@@ -23,6 +22,7 @@ function HeroSection() {
           </div>
         </div>
 
+{/* hero section right div */}
         <div className="box"></div>
       </div>
     </section>

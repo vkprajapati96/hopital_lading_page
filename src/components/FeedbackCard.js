@@ -6,8 +6,6 @@ function FeedbackCard({review}) {
     <div className="quote"><img src="/images/quote.png" alt="quote" /></div>
     
     <div className="customer-feedback" > 
-      {/* I wanted to thanks everyone at this facility for the quality of
-      care and compassion they showed during my stay. */}
       {review.Reviews}
     </div>
     

@@ -3,7 +3,7 @@ import "./Specialist.css"
 import SpecialistCard from "./SpecialistCard"
 
 function Specialist() {
-  // static data 
+  // static data for cards
   const SpecialistData = [
     {
       id: 1,

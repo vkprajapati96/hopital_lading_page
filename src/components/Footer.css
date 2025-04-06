@@ -15,6 +15,7 @@
     font-size: 34px;
     font-weight: 700;
     color: var(--blue-medium);
+
   }
   
  .footer-navbar .logo span {
@@ -36,7 +37,6 @@
   
  .footer-navbar nav ul li {
     list-style: none;
-    /* color: black; */
   }
   .footer-navbar nav ul li #home {
     font-size: 16px;
@@ -50,10 +50,10 @@
     font-weight: 400;
     text-decoration: none;
     color: var(--blue-light);
-    /* list-style: none; */
-    /* color: black; */
   }
- 
+  .footer-navbar nav ul li a:hover{
+    font-weight: 700;
+  }
 
   /* footer */
   .footer-section{
@@ -65,6 +65,7 @@
   .footer-section .footer{
 display: flex;
 flex-direction: column;
+gap: 1rem;
   }
 
   .footer .images{
