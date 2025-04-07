@@ -100,14 +100,23 @@ A quick look at the top-level files and directories you'll see in a typical Gats
 
 Created by **Vishal Prajapati** 
 
+Live demo at vercel
+https://hopital-lading-page.vercel.app/
+
+Github Project URL
+https://github.com/vkprajapati96/hopital_lading_page.git
+
 Github Acccount 
  https://github.com/vkprajapati96 
 
+<<<<<<< HEAD
 
 Live demo at vercel
 https://hopital-lading-page.vercel.app/
 
 
+=======
+>>>>>>> 9e7c339567bd0482296bb33e1057dfd40b02cb91
 LinkdeIn Profile
  www.linkedin.com/in/vishal-prajapati-8932ba2a4 
 
