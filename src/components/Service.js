@@ -4,7 +4,6 @@ import servicesData from "./servicesData "
 import ServiceCard from "./ServiceCard"
 
 function Service() {
-
   return (
     <section className="service-section">
       <div className="container service">

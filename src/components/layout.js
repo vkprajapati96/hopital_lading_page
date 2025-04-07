@@ -1,6 +1,6 @@
 import React from "react"
 import HeroSection from "./HeroSection"
-// import Service from "./Service"
+import Service from "./Service"
 // import Clinic from "./Clinic"
 // import Specialist from "./Specialist"
 // import Feedback from "./Feedback"
@@ -13,7 +13,7 @@ function layout({ children }) {
     <div>
       <Navbar/>
       <HeroSection />
-      {/* <Service /> */}
+      <Service />
       {/* <Clinic /> */}
       {/* <Specialist /> */}
       {/* <Feedback /> */}
