@@ -8,10 +8,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 13rem 0 8rem 0;
-    gap: 30px;
-
+    gap: 18px;
 }
-
 
 .content {
     display: flex;
@@ -62,13 +60,19 @@
 
 .clinic .middle-cards {
     display: flex;
-    flex-direction: column;
-    gap: 10rem;
+    align-items: center;
+    gap: 26px;
 
 }
 
+.middle-cards-card1{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
 
-.middle-cards .card {
+}
+
+.middle-cards .middle-cards-card1 .card {
     width: 282px;
     height: 236px;
     border-radius: 20px;
@@ -79,7 +83,7 @@
     position: relative;
 }
 
-.middle-cards .card img {
+.middle-cards .middle-cards-card1 .card img {
     position: absolute;
     top: -120px;
     right: 30px;
@@ -88,7 +92,7 @@
 }
 
 
-.middle-cards .card p {
+.middle-cards .middle-cards-card1 .card p {
     margin-top: 11rem;
     padding-left: 2rem;
     color: var(--blue-deep);
@@ -99,7 +103,7 @@
 
 }
 
-.clinic .last-card {
+ .clinic  .last-card {
     width: 282px;
     height: 236px;
     border-radius: 20px;
@@ -118,7 +122,7 @@
 
 }
 
-.middle-cards .abmlance-card img {
+.middle-cards .middle-cards-card1 .abmlance-card img {
     position: absolute;
     top: -105px;
     right: 20px;
@@ -132,5 +136,263 @@
     font-size: 22px;
     line-height: 100%;
     letter-spacing: 0px;
+
+}
+
+
+@media screen and (max-width:1199px){
+
+    .clinic {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0 8rem 0;
+        gap:9rem;
+   
+    }
+    .clinic .middle-cards {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    
+    }
+    
+    .middle-cards .middle-cards-card1 .card {
+        width: 380px;
+        height: 256px;
+    }
+    .middle-cards .middle-cards-card1 .card img {
+        top: -120px;
+        right: 70px;
+    
+    }
+    
+    
+     .clinic .last-card {
+        width: 380px;
+        height: 256px;
+    }
+    
+    .clinic .last-card img {
+        position: absolute;
+        top: -110px;
+        right: 70px;
+        border-radius: 100px;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:991px){
+    .middle-cards .middle-cards-card1 .card {
+        width: 290px;
+        height: 256px;
+    }
+    .middle-cards .middle-cards-card1 .card img {
+        top: -120px;
+        right: 40px;
+    
+    }
+    
+    .middle-cards .middle-cards-card1 .abmlance-card img {
+        top: -105px;
+        right: 30px;
+    }
+    
+    
+     .clinic .last-card {
+        width: 290px;
+        height: 256px;
+    }
+    
+    .clinic .last-card img {
+        position: absolute;
+        top: -110px;
+        right: 40px;
+        border-radius: 100px;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:767px){
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+
+    }
+    .clinic .content h2 {
+    text-align: center;
+    
+    }
+    
+    .clinic .content p {
+        text-align: center;
+    
+    }
+    
+    .clinic .content button {
+        margin-left: 3rem;
+    }
+    
+    
+    
+    
+
+/* cardds */
+
+    .clinic .middle-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 9rem;
+    
+    }
+    .middle-cards .middle-cards-card1 .card {
+        width: 500px;
+        height: 300px;
+    }
+    .middle-cards .middle-cards-card1 .card img {
+        top: -120px;
+        right: 140px;
+    
+    }
+    
+    .middle-cards .middle-cards-card1 .abmlance-card img {
+        top: -105px;
+        right: 120px;
+    }
+    
+    
+     .clinic .last-card {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .clinic .last-card img {
+        position: absolute;
+        top: -110px;
+        right: 140px;
+        border-radius: 100px;
+    
+    }
+
+   
+}
+
+@media screen and (max-width:579px){
+
+    .clinic .content h2 {
+        text-align: center;
+        font-size: 42px;
+        
+        
+    }
+    
+    
+    
+    .clinic .content p {
+        /* border: 2px solid; */
+        width: 360px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 35px;
+        letter-spacing: 0px;
+        color: var(--blue-deep);
+    
+    
+    }
+    
+    .clinic .content button {
+        margin-top: 4rem;
+        align-items: self-start;
+    }
+    
+    
+    
+    .middle-cards .middle-cards-card1 .card {
+        width: 390px;
+        height:300px;
+    }
+
+    .middle-cards .middle-cards-card1 .card img {
+        top: -120px;
+        right: 90px;
+    
+    }
+    
+    .middle-cards .middle-cards-card1 .abmlance-card img {
+        top: -105px;
+        right: 80px;
+    }
+    
+    
+     .clinic .last-card {
+        width: 390px;
+        height: 300px;
+    }
+    
+    .clinic .last-card img {
+        position: absolute;
+        top: -110px;
+        right: 90px;
+        border-radius: 100px;
+    
+    }
+
+}
+
+@media screen and (max-width:424px){
+    .clinic .content h2 {
+        text-align: center;
+        font-size: 30px;
+}
+        
+        .clinic .content p {
+            width: 300px;
+            /* border: 2px solid; */
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .clinic .content button {
+            margin-left: 3rem;
+        }
+        
+     
+    
+    .middle-cards .middle-cards-card1 .card {
+        width: 290px;
+        height:300px;
+    }
+
+    .middle-cards .middle-cards-card1 .card img {
+        top: -120px;
+        right: 35px;
+    
+    }
+    
+    .middle-cards .middle-cards-card1 .abmlance-card img {
+        top: -105px;
+        right: 30px;
+    }
+    
+    
+     .clinic .last-card {
+        width: 290px;
+        height: 300px;
+    }
+    
+    .clinic .last-card img {
+        position: absolute;
+        top: -110px;
+        right: 35px;
+        border-radius: 100px;
+    
+    }
 
 }
