@@ -2,6 +2,8 @@ import React from "react"
 import "./Navbar.css"
 import { Link } from "gatsby"
 import Button from "./Button"
+import { AiOutlineMenu } from "react-icons/ai";
+
 
 function Navbar() {
   return (
@@ -35,7 +37,8 @@ function Navbar() {
                 <Link to="">News </Link>
               </li>
             </ul>
-            <Button text="Contact" />
+            <Button text="Contact" className="contact" />
+            <AiOutlineMenu id="menu" />
           </nav>
         </div>
       </div>

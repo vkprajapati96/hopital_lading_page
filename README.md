@@ -56,6 +56,7 @@ http://localhost:8000
 A quick look at the top-level files and directories you'll see in a typical Gatsby project.
     .
     ├── node_modules
+    ├── public
     ├── src
     ├── .gitignore
     ├── gatsby-browser.js
@@ -64,6 +65,7 @@ A quick look at the top-level files and directories you'll see in a typical Gats
     ├── gatsby-ssr.js
     ├── LICENSE
     ├── package.json
+    ├── package-lock.json
     └── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -100,6 +102,10 @@ Created by **Vishal Prajapati**
 
 Github Acccount 
  https://github.com/vkprajapati96 
+
+
+Live demo at vercel
+https://hopital-lading-page.vercel.app/
 
 
 LinkdeIn Profile

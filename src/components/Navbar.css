@@ -92,3 +92,42 @@
 .inner-navbar .navbar nav ul li a:hover{
   font-weight: 700;
 }
+
+.inner-navbar .navbar nav #menu{
+  display: none;
+}
+
+
+@media screen and (max-width:991px) {
+  .inner-navbar {
+    height: 80px;
+  }
+  
+  .inner-navbar .navbar {
+    top: 15px;
+  }
+
+  .inner-navbar .navbar nav {
+    gap: 30px;
+  }
+  
+  .inner-navbar .navbar nav ul {
+    gap:20px;
+    margin-left: 10px;
+    padding-left: 5rem;
+  }
+  
+}
+
+
+@media screen and (max-width:768px) {
+  .inner-navbar .navbar nav ul {
+    display: none;
+   }
+   .inner-navbar .navbar nav #menu{
+    display: block;
+    font-size: 2rem;
+  }
+  
+ 
+}

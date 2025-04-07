@@ -32,47 +32,52 @@ body,html {
 ::-webkit-scrollbar{
     display: none;
 }
-/* container */
+
+/*  container*/
 .container {
-    width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
-    /* background-color: red; */
-    /* border: 2px solid red; */
+    /* border:2px solid red; */
 }
 
 
-/* XXL Screens (≥1400px) */
-/* @media (min-width: 1400px) {
+@media (min-width:1200px){
     .container {
-        max-width: 1320px;
-    }
-} */
+        width: 1170px;
+    }  
 
-/* Extra Large devices (≥1200px) */
-/* @media (min-width: 1200px) {
+}
+@media (min-width:992px) and (max-width:1199px){
     .container {
-        max-width: 1140px;
-    }
-} */
+        width: 970px;
+    }  
+     
+}
+@media (min-width:768px) and (max-width:991px){
+    .container {
+        width: 720px;
+    }   
+}
 
-/* Large devices (≥992px) */
-/* @media (min-width: 992px) {
+@media (min-width:580px) and (max-width:767px){
     .container {
-        max-width: 960px;
-    }
-} */
+        width: 550px;
+        
+    }   
+}
 
-/* Medium devices (≥768px) */
-/* @media (min-width: 768px) {
+@media (min-width:425px) and (max-width:579px){
     .container {
-        max-width: 720px;
+        width: 400px;
     }
-} */
+        
+   
 
-/* Small devices (≥576px) */
-/* @media (min-width: 576px) {
+}
+
+ @media (min-width:320px) and (max-width:424px){
     .container {
-        max-width: 540px;
-    }
-} */
+        width: 300px;        
+    }   
+
+   
+} 
