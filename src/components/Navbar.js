@@ -1,11 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Navbar.css"
 import { Link } from "gatsby"
 import Button from "./Button"
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu,AiOutlineClose} from "react-icons/ai";
+
 
 
 function Navbar() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
   return (
     <div className="navbar-section">
       <div className="container inner-navbar ">
@@ -38,9 +44,23 @@ function Navbar() {
               </li>
             </ul>
             <Button text="Contact" className="contact" />
-            <AiOutlineMenu id="menu" />
+           <div className="menu-icon" onClick={toggleSidebar}>
+            {sidebarOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+
+           </div>
           </nav>
         </div>
+              {/* Sidebar */}
+      <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
+        <ul>
+          <li><Link to="" onClick={toggleSidebar}>Home</Link></li>
+          <li><Link to="" onClick={toggleSidebar}>About</Link></li>
+          <li><Link to="" onClick={toggleSidebar}>Service</Link></li>
+          <li><Link to="" onClick={toggleSidebar}>News</Link></li>
+          <li><Button text="Contact" className="contact" /></li>
+        </ul>
+      </div>
+
       </div>
     </div>
   )

@@ -40,7 +40,15 @@ button{
 }
 
 @media screen and (max-width:991px) {
-.send{
+ .contact{
+  width: 130px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+ 
+  }
+
+  .send{
   top: 22px;
   right: -35px;
   width: 150px;
@@ -49,14 +57,16 @@ button{
 }
 }
 
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
   .contact{
     display: none;
   }
 
-  .send{
+}
 
+@media screen and (max-width:767px) {
+ 
+  .send{
     top: 20px;
     right: -35px;
     width: 120px;
