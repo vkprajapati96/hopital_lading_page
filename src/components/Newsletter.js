@@ -4,10 +4,10 @@ import Button from "./Button"
 
 function Newsletter() {
   return (
-    <div className="newsletter-section">
+    <div className=" newsletter-section">
       {/* oval img */}
       <img className="ovalpic" src="/images/oval3.png" alt="" />
-    
+    {/* <div className="ovalpic" ></div> */}
       <div className="container newsletter">
 
         {/* NewsLetttr Content */}

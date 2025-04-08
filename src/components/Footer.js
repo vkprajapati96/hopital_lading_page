@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from 'gatsby'
+import { AiOutlineMenu } from "react-icons/ai";
+
 
 
 function Footer() {
@@ -17,6 +19,7 @@ function Footer() {
                         <li><Link to="">Service</Link></li>
                         <li><Link to="">News</Link></li>
                     </ul>
+                      <AiOutlineMenu id="footer-navbar-menu" />
                     </nav>
                   </div>
         </div>

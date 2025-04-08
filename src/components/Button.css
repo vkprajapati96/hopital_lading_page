@@ -39,10 +39,29 @@ button{
     color: var(--secondary-color);
 }
 
+@media screen and (max-width:991px) {
+.send{
+  top: 22px;
+  right: -35px;
+  width: 150px;
+  height: 74px;
 
-@media screen and (max-width:768px) {
+}
+}
+
+
+@media screen and (max-width:767px) {
   .contact{
     display: none;
+  }
+
+  .send{
+
+    top: 20px;
+    right: -35px;
+    width: 120px;
+    height: 60px;
+  
   }
 }
 
@@ -53,6 +72,14 @@ button{
     font-size:13px ;
 
   }
+  .send{
+
+    top: 10px;
+    right: -45px;
+    width: 120px;
+    height: 40px;
+  
+  }
 }
 
 
@@ -61,5 +88,14 @@ button{
     width: 130px;
     font-size:12px ;
 
+  }
+  .send{
+
+    top: 15px;
+    right: -55px;
+    width: 90px;
+    height: 30px;
+    font-size:12px;
+  
   }
 }
